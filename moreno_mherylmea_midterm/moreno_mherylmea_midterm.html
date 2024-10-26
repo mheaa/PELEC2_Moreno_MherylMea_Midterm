@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mheryl Mea T. Moreno</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            color: #4d2f2f;
+            background: linear-gradient(to right, rgba(255, 192, 203, 0.5), rgba(255, 255, 255, 0.5)); 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #8b3d3e;
+        }
+
+        h2 {
+            color: #a11a1a;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-style: italic; 
+        }
+
+        h3 {
+            color: #8b3d3e;
+            text-align: left; 
+        }
+
+        header {
+            background-color: #ffebee;
+            width: 100%;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: #a11a1a;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-style: italic;
+            margin: 0;
+        }
+
+        button {
+            background-color: #d95c5c;
+            color: #fff;
+            border: 1px solid #b56464;
+            border-radius: 5px;
+            padding: 8px 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e29494;
+        }
+
+        section {
+            background-color: #fbe3e3;
+            border-bottom: 2px solid #d95c5c;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 300px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin: 10px auto; 
+            display: block;
+        }
+
+        .contact-info a {
+            color: #8b3d3e;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mheryl Mea T. Moreno</h1>
+        <div>
+            <button onclick="document.getElementById('about-me').scrollIntoView({ behavior: 'smooth' })">About Me</button>
+            <button onclick="document.getElementById('education').scrollIntoView({ behavior: 'smooth' })">Education</button>
+            <button onclick="document.getElementById('skills').scrollIntoView({ behavior: 'smooth' })">Skills</button>
+        </div>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hey there! I’m Mheryl Mea, standing tall at 5'11" with a big smile and an even bigger laugh you’ll hear before you see me! I'm the kind of person who brings energy to any room. I live for adventure, from spontaneous trips to simply embracing whatever life throws my way. I’m all about making memories and enjoying life’s surprises. Ready to join me on the ride? Let's go!</p>
+        <img src="mee.jpg" alt="Photo of Mheryl Mea T. Moreno">
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I'm a happy, go-with-the-flow individual who values adventure, family, loyalty, and honesty. My goal is to grow in the tech field and contribute positively to the world through technology.</p>
+        <h3>Little Me</h3>
+        <p>A glimpse into my childhood and where I started.</p>
+        <p>As a little girl, I was always the one with a big grin and dirt on my knees. Climbing trees in my grandmas place was my favorite adventure, and I would laugh loudly as I scrambled up the branches, my chubby cheeks rosy with excitement. My bangs bounced with every step as I raced outside, ready to explore without a care in the world. Every afternoon after kindergarten, I would dive into playtime digging, climbing, and running until my uniform was a colorful mix of dirt and joy. By the time I came home for dinner, I was bursting with stories to tell my family and cousins, my clothes covered in dirt from my day of fun. I would proudly show off my twigs-filled bangs, knowing that life was simple and sweet, and every day was a joyful adventure waiting to be had!</p>
+        <img src="childood image.jpg" alt="Childhood photo"> 
+        <img src="fam.jpg" alt="family photo">
+        <img src="fam2.jpg" alt="family photo">
+
+        <h3>Middle School to High School</h3>
+        <p>Middle school was a mix of laughter and mischief for me. I cut classes more often than I should have, but my grades stayed strong, thanks to my knack for learning in my own way. High school was a blast! Every day was an adventure filled with unforgettable moments and friendships that shaped my life. I learned so much from my classmates and the exciting activities we did together. Graduation day was the highlight!I found out my bestfriend is pregnant and I was soon to be a godmother, I was so happy and walking across the stage, I felt my heart race as I saw my mom and dad beaming with pride. Graduating with high honors made me so happy, and their smiles reminded me how blessed I am. Looking back, those years were thrilling and full of joy!</p>
+        <img src="grad 3.jpg" alt="Graduation photo">
+
+        <h3>Me Now</h3>
+        <p>Right now, I’m a happy working student who always gets sick, juggling full 8-hour shifts at work and school. Life is busy, but I love it! My free time usually involves cleaning the house, doing laundry, or whipping up something delicious in the kitchen. Baking is my little escape, and there’s nothing better than enjoying a sweet treat after a long day. On my days off, I cherish evening strolls under the stars—it's the perfect way to unwind. I love to eat and sleep a lot now; those cozy moments recharge me for the adventures ahead. I feel blessed for who I am and what I’ve become, always eager to learn more. I'm ready to take risks for a better life, and I hold my family close to my heart. Life is a beautiful journey, and I’m excited for every step!</p>
+        <img src="menow.jpg" alt="Current photo">
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, C++, Python</li>
+            <li>Can manage multiple tasks efficiently</li>
+            <li>Strong Communication Skills</li>
+            <li>Problem-solving Skills</li>
+            <li>Other Skills: Baking and Cooking</li>
+        </ul>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: mherylmoreno@gmail.com</p>
+        <div class="contact-info">
+            <a href="https://www.facebook.com/quinndesteen.moreno" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/eyaaaangg/" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+</body>
+</html>
